@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //Max Cravetchi, 2-9-2021: The guessing game is a game where the user inputs a random number between 1 and 100. The computer generates a random number, and if the user number is the same as the generated number, the user wins. The user can either replay or quit after they win. If they dont match, the user guesses numbers until it matches.
 using namespace std;
 
 int main() { //declares main function
