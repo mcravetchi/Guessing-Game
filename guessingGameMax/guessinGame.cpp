@@ -5,7 +5,7 @@ int main() { //declares main function
 
   bool replay = true;
 
-  do{
+  do{ //a do while loop does the code inside the do, while the condition said by the while is true.
   int computer; //computer generated number
   int user; //user number
   int guesses = 1; //tracks the number of guessess
@@ -36,6 +36,6 @@ int main() { //declares main function
 	cout<<"You won! You guessed " << guesses << " times. Would you like to play again? 1 to replay/0 to exit" <<endl;
 	cin>>replay;
 
-  }while(replay==true);
+  }while(replay==true); //when the user inputs 1, it keeps the boolean as true, and 0 makes it false and returns the main function.
   return 0;
 }//int main
