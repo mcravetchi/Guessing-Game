@@ -1,0 +1,28 @@
+#include <iostream>
+
+int main(){
+
+  int computer;
+  int user;
+  int guesses = 1;
+
+  srand(time(NULL));
+  computer = rand() % 100 + 1;
+
+  cout <<"Enter an integer between 1 and 100\n";
+  cin >> user;
+
+
+  while(user != computer) {
+  if(user != computer) {
+    guesses++;
+    cin.clear();
+    cout << "The number is too small! Try again." << endl;
+    cin >> user;
+  } else if (user = computer) {
+    guesses++;
+    cin.clear();
+    
+  }
+  
+}

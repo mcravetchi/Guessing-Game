@@ -1,0 +1,33 @@
+#include <iostream>
+
+int main() {
+
+  int computer;
+  int user;
+  int guesses = 1;
+
+
+  srand(time((NULL));
+	computer = rand() % 100 + 1;
+
+	cout<<"Enter an integer between 1 and 100";
+	cin>>user;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}//int main
